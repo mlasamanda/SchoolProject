@@ -16,7 +16,7 @@
   <div class="hero"> 
   
   <img src="assets/dist/img/logcircle.png" width="20%" height="20%">
-  <h1>Don Carlo's Secondary School</h1>
+  <h1>Don Carlo's Secondary Schools</h1>
    <p>A place for quality education and personal growth.</p>
   </div>
   </nav>
