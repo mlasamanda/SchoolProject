@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   }
+   
+   body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f2f2f2;
+   }
+   
+   header {
+    background-color: #0077be;
+    color: #fff;
+    width:auto;
+    height: 10%;
+   }
+   
+   nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+   }
+   
+   nav ul {
+    list-style: none;
+    display: flex;
+   }
+   
+   nav ul li {
+    margin-right: 1rem;
+   }
+   
+   nav ul li a {
+    color: #fff;
+    text-decoration: none;
+   }
+   
+   .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 2rem;
+   }
+   
+   .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+   }
+   main{
+    background-color: hsl(165, 67%, 22%);
+   }
+   .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+   }
+   
+   .cta {
+    background-color: hsl(0, 26%, 79%);
+    color: #0077be;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+   }
+   
+   .cta:hover {
+    background-color: #0077be;
+    color: #fff;
+   }
+   
+   main {
+    padding: 2rem;
+   }
+   
+   section {
+    margin-bottom: 2rem;
+   }
+   
+   section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+   }
+   
+   section p {
+    margin-bottom: 1rem;
+   }
+   
+   section ul {
+    list-style: none;
+   }
+   
+   section ul li {
+    margin-bottom: 0.5rem;
+   }
+   
+   footer {
+    background-color: #0077be;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+   }
+   
+   .contact ul {
+    list-style: none;
+   }
+   
+   .contact ul li {
+    margin-bottom: 0.5rem;
+   }
+   
+   .social ul {
+    list-style: none;
+    display: flex;
+   }
+   
+   .social ul li {
+    margin-right: 1rem;
+   }
+   
+   .social ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+   }
+   
+   .social ul li a:hover {
+    color: #0077be;
+   }
