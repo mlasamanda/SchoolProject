@@ -18,6 +18,7 @@ use App\Http\Controllers\StudentsController;
 use App\Http\Controllers\Contact;
 use App\Http\Controllers\ChangePassword;
 use App\Http\Controllers\UserProfile;
+use App\Http\Controllers\SubjectController;
 
   
 Route::get('/', function () {
@@ -34,12 +35,13 @@ Route::resource('news',NewEvent::class);
     Route::resource('admission',Admission::class);
     Route::resource('image',GalleryController::class);
     Route::resource('master',MasterController::class);
+    Route::resource('subject',SubjectController::class);
     Route::get('/contact', [Contact::class, 'index'])->name('getContact');
     Route::get('/saveContract',[Contact::class,''])->name('save');
     Route::resource('message',MessageController::class);
     Route::group(['middleware' => ['auth']], function() {
     Route::resource('roles', RoleController::class);
-    
+   
     Route::resource('books', BookController::class);
     Route::resource('students',StudentsController::class);
     Route::resource('teachers',TeachersController::class);
